@@ -1,0 +1,9 @@
+# Piano Phase by Steve Reich, 1968
+# arranged by praxis @praxis_music
+# play from a list
+# 11 December 2014
+use_synth :pretty_bell
+use_bpm 400
+8.times do
+play_pattern [:E4,:Fs4,:B4,:Cs5,:D5,:Fs4,:E4,:Cs5,:B4,:Fs4,:D5,:Cs5], release: 8
+end
